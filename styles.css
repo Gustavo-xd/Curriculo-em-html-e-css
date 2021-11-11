@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    width: 100%;
+    text-align: center;
+    min-height: 100vh;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#profilepic{
+    width:150px;
+    height:150px;
+    border-radius:150px;
+    border:1px solid black;
+    box-shadow:2px 3px 10px black;
+    margin-top:20px;
+    margin-left:20px;
+    filter:grayscale(100%);
+  }
+.container{
+    width: 840px;
+    height: 910px;
+    border: 1px solid darkcyan;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 0 15px #069;
+}
+.hr_dados1{
+    border-top: medium dashed #069;
+    border-bottom: medium dashed #069;
+    height: 5px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_dados1::after{
+    content: "GUSTAVO E SOBRENOME";
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    top: -0.7em;
+    background: #fff;
+    display: inline;
+    position: relative;
+}
+.hr_01{
+    border-top: medium dashed #069;
+    border-bottom: medium dashed #069;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_01::after{
+    content: 'Objetivo';
+    position: relative;
+    top: -0.7em;
+    font-size: 1.4em;
+    background-color: #fff;
+    display: inline;
+    padding: 0 0.3em;
+}
+.hr_02{
+    border-top: medium dashed #069;
+    border-bottom: medium dashed #069;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_02::after{
+    content: 'Perfil Profissional';
+    position: relative;
+    top: -0.7em;
+    font-size: 1.4em;
+    background-color: #fff;
+    display: inline;
+    padding: 0 0.3em;
+}
+.hr_03{
+    border-top: medium dashed #069;
+    border-bottom: medium dashed #069;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_03::after{
+    content: 'Ensino superior';
+    position: relative;
+    top: -0.7em;
+    font-size: 1.4em;
+    background-color: #fff;
+    display: inline;
+    padding: 0 0.3em;
+}
+.hr_04{
+    border-top: medium dashed #069;
+    border-bottom: medium dashed #069;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_04::after{
+    content: 'Cursos';
+    position: relative;
+    top: -0.7em;
+    font-size: 1.4em;
+    background-color: #fff;
+    display: inline;
+    padding: 0 0.3em;
+}
+.hr_05{
+    border-top: medium dashed #069;
+    border-bottom: medium dashed #069;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_05::after{
+    content: 'Redes Sociais';
+    position: relative;
+    top: -0.7em;
+    font-size: 1.4em;
+    background-color: #fff;
+    display: inline;
+    padding: 0 0.3em;
+}
+.fab{
+    cursor: pointer;
+    margin: 5px;
+    max-height: 100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+}
+.fab:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+    color: #069;
+}
